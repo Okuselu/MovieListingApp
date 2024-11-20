@@ -7,7 +7,7 @@
     <title>Filmr</title>
   </head>
   <body>
-    <main>
+    <section class="container">
       <header id="header">
         <div class="header-div">
           <!-- <img src="" alt="site logo" /> -->
@@ -15,71 +15,24 @@
         </div>
       </header>
       <section id="hero">
-        <form action="">
+        <form>
           <div id="input-group">
             <input id="search-input" type="text" placeholder="Type movie name" />
-            <button id="movie-search">Search</button>
+            <button id="search-btn">Search</button>
           </div>
         </form>
       </section>
         <!-- Movie list -->
         <header id="heading">Popular Movies</header>
         <ul id="movies">
-          <li class="movie-poster">
-            <div class="movie-card">
-              <img
-                src="https://image.tmdb.org/t/p/w500/rHsCYDGHFUarGh5k987b0EFU6kC.jpg"
-                alt="poster"
-              />
-              <div class="movie-info">
-                <h2>Star trek Generation</h2>
-                <p>Genre: Scifi</p>
-                <p>Rating: 8.5</p>
-              </div>
-            </div>
-          </li>
-          <li class="movie-poster">
-            <div class="movie-card">
-              <img
-                src="https://image.tmdb.org/t/p/w500/rHsCYDGHFUarGh5k987b0EFU6kC.jpg"
-                alt="poster"
-              />
-              <div class="movie-info">
-                <h2>Star trek Generation</h2>
-                <p>Genre: Scifi</p>
-                <p>Rating: 8.5</p>
-              </div>
-            </div>
-          </li>
-          <li class="movie-poster">
-            <div class="movie-card">
-              <img
-                src="https://image.tmdb.org/t/p/w500/rHsCYDGHFUarGh5k987b0EFU6kC.jpg"
-                alt="poster"
-              />
-              <div class="movie-info">
-                <h2>Star trek Generation</h2>
-                <p>Genre: Scifi</p>
-                <p>Rating: 8.5</p>
-              </div>
-            </div>
-          </li>
-          <li class="movie-poster">
-            <div class="movie-card">
-              <img
-                src="https://image.tmdb.org/t/p/w500/rHsCYDGHFUarGh5k987b0EFU6kC.jpg"
-                alt="poster"
-              />
-              <div class="movie-info">
-                <h2>Star trek Generation</h2>
-                <p>Genre: Scifi</p>
-                <p>Rating: 8.5</p>
-              </div>
-            </div>
-          </li>
         </ul>
+        <div class="paginate">
+          <button id="prev" class="p-btn">Back</button>
+          <button id="next" class="p-btn">Next</button>
+        </div>
       </section>
-    </main>
+     
+    
     <script src="/index.js"></script>
   </body>
 </html>
